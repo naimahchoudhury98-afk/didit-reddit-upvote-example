@@ -46,3 +46,25 @@ The project is a work in progress and is not yet complete.
 - [ ] User following
 - [ ] User feed (posts from users you follow)
 - [ ] User flair
+
+
+## Assignment Reflection
+
+### Requirements Met
+- Forked and cloned the existing repository
+- Set up the database using schema.sql
+- Configured GitHub OAuth authentication with NextAuth
+- Deployed the app to Vercel
+
+### Stretch Goals Achieved
+- Page titles on post pages now match the post title using generateMetadata
+- Added a friendly "Please log in to vote" message when voting while not logged in
+- Fixed the unique vote constraint in the database using ALTER TABLE
+
+### What I Found Difficult
+- Setting up the GitHub OAuth callback URL for both local and production environments
+- Understanding the existing codebase and how NextAuth works differently from Clerk
+
+### What Went Well
+- The database setup using schema.sql was straightforward
+- Fixing the UserInfo bug was a good introduction to the codebase
